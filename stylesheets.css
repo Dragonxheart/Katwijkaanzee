@@ -1,0 +1,121 @@
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    .col-4 { width: 33.33%; }
+    .col-5 { width: 41.66%; }
+    .col-6 { width: 50%; }
+    .col-7 { width: 58.33%; }
+    .col-8 { width: 66.66%; }
+    .col-9 { width: 75%; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+}
+
+.sedan-regular {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.left{
+    flex:1;
+    padding: 20px
+}
+
+.right{
+    flex:2;
+    padding:20px;
+    background-color:#6f7554;
+    color: #fff;
+}
+
+.colum {
+    width: 50%;
+    float: left;
+}
+
+.feiten{
+    padding:1px;
+}
+
+.feit{
+    margin-bottom: 20px;
+}
+
+.rechterkant{
+    margin-bottom: 20px;
+}
+
+.header {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c7/Katwijk_aan_Zee-38-Duenenweg-2010-gje.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+}
+
+.footer {
+    background-color: #454b3b;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.strand-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.vuurtoren-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.strand {
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+
+.vuurtoren {
+    float:right;
+    width:300px;
+    height: 200px;
+}
